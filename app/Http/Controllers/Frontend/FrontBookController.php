@@ -154,7 +154,6 @@ class FrontBookController extends Controller
         if(empty($search) && empty($search_publisher) && empty($search_category)){
             return back()->with('status', 'Maybe you serch empty data!');
         }
-
         elseif(empty($search) && empty($search_category) && !empty($search_publisher)){
              $book = Book::where('status', 'approved')
             ->where('publisher_id', $search_publisher)->paginate(10);
@@ -169,7 +168,6 @@ class FrontBookController extends Controller
             ->where('publisher_id', $search_publisher)
             ->orWhere('category_id', $search_category)->paginate(10);
         }
-
         else{
             $book = Book::where('status', 'approved')
             ->where('book_name', 'like', '%'.$search.'%')

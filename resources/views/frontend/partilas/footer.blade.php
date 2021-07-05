@@ -48,9 +48,9 @@
 
         </div>
 
-        <p class="text-center">
-            &copy; 2019 all rights reserved
-        </p>
+        <div class="footer-bottom text-center mt-3 pb-3">
+            &copy; 2021 - All rights reserved by <a href="https://www.facebook.com/HridoyMrhn/" target="_blank">Hridoy MRHN</a>
+        </div>
     </div>
 </div>
 

@@ -40,12 +40,12 @@ error_reporting(0);
 <!-- Carousel -->
 
 <!-- Advance Search Start  -->
-<div class="advance-search">
+<div class="advance-search mt-3">
     <div class="container">
         <h3>Advance Search</h3>
         <form action="{{ route('advance.search') }}" method="GET">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-lg-4">
                     <div class="form-group">
                         <label for="title_info">Book Title/Description</label>
                         <input type="text" class="form-control" id="title_info" name="t_d" placeholder="Book Title/Description">
@@ -62,7 +62,7 @@ error_reporting(0);
                         </select>
                     </div>
                 </div> --}}
-                <div class="col-md-4">
+                <div class="col-lg-4">
                     <div class="form-group">
                         <label for="publisher">Book Publication</label>
                         <select name="publisher" id="publisher" class="form-control">
@@ -73,7 +73,7 @@ error_reporting(0);
                         </select>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-lg-3">
                     <div class="form-group">
                         <label for="category">Book Category</label>
                         <select name="category" id="category" class="form-control">
@@ -84,7 +84,7 @@ error_reporting(0);
                         </select>
                     </div>
                 </div>
-                <div class="col-md-1">
+                <div class="col-lg-1">
                     <button type="submit" class="btn btn-success btn-lg mt-2">
                         <i class="fa fa-search"></i>Search
                     </button>
